@@ -1,0 +1,426 @@
+.title {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.pageBanner {
+  font-family: Montserrat,arial,sans-serif;
+  text-align: center;
+}
+
+.pageBanner p {
+  font-weight: 600;
+  font-size: 7vw;
+  color: white;
+  letter-spacing: 1px;
+  margin-bottom: 2px;
+  font-style: italic;
+}
+
+.pageBanner .button {
+  border: solid;
+  border-width: 4px;
+  border-color: white;
+  width: 50vw;
+  max-width: 550px;
+  height: 13vw;
+  max-height: 90px;
+  font-size: 4vw;
+  letter-spacing: 2px;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-weight: 700;
+  padding: 0%;
+  color: white;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.button {
+  border-color: white;
+  border-width: 3px;
+  background-color: rgba(0,0,0,0);
+  -webkit-transition: background-color 0.3s ease-out;
+  -moz-transition: background-color 0.3s ease-out;
+  -o-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
+}
+
+.content {
+  width: 90%;
+  box-shadow: 0px 10px 30px 0px #888888;
+  padding: 0px 40px 0px 40px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: white;
+  margin-top: 4vw;
+}
+
+.content p {
+}
+
+.contentCell0 {
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: silver;
+}
+
+.contentCell1 {
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: silver;
+}
+
+.table {
+  display: table;
+}
+
+/*
+  Header
+*/
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  text-align: center;
+}
+
+.logo {
+  display: inline-block;
+  position: relative;
+  top: -5px;
+  margin-right: 20px;
+}
+
+.headerText {
+  display: inline-block;
+  color: #000082;
+  font-family: Impact;
+  letter-spacing: 3px;
+  font-size: 55px;
+  height: 100%;
+  position: relative;
+  top: 10px;
+}
+
+/*
+  Navbar
+*/
+
+.navbar {
+  background: #FFFFFF;
+  border: none;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  position: sticky;
+  top: 0;
+}
+
+.navbar .navbar-nav > li > a {
+  color: #999999; 
+  height: 100%;
+  font-size: 16px;
+  font-family: Arial;
+  letter-spacing:3px;
+  margin-bottom: 0px;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+}
+
+.navbar .navbar-nav > li > a:hover {
+  color: #000082;
+}
+
+.navbar .navbar-toggle {
+  background-color: #003366;
+}
+
+.navbar .navbar-toggle:focus {
+  background-color: #003366;
+}
+
+.navbar .navbar-toggle:hover {
+  background-color: #00264d;
+}
+
+.navItems {
+  text-align: right;
+  padding-top: 5px;
+}
+
+.navLogo {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.navHeader {
+  margin-bottom: 0px;
+  color: #000082;
+  font-family: Arial Black;
+  font-size: 18px;
+}
+
+/*
+  Home
+*/
+
+.home .pageBanner {
+  background: url("./images/pressSlim.jpg") fixed top center no-repeat;
+  background-size: 100% auto;
+  font-family: Montserrat,arial,sans-serif;
+  text-align: center;
+}
+
+.home .pageBannerInner {
+  padding-top: 12vw;
+  padding-bottom: 12vw;
+}
+
+.bannerLogo {
+  width: 30vw;
+  display: none;
+}
+
+.home .pageBanner .button:hover {
+  background-color: white;
+  color: dimgrey;
+}
+
+.home .contentCell0 {
+  padding: 30px 0px 30px 0px;
+}
+
+.home .contentCell0 p {
+  margin-bottom: 10px;
+}
+
+.home .contentCell1 {
+  padding: 30px 0px 30px 0px;
+}
+
+.home .table {
+  margin-top: 20px;
+}
+
+.home .contentCell0 .tableCell0 {
+  text-align: left;
+  padding-left: 2vw;
+  width: 100%;
+  font-size: 16px;
+  display: block;
+  color: dimgrey;
+  padding-left: 5vw;
+}
+
+.home .contentCell0 .tableCell1 {
+  text-align: left;
+  padding-left: 2vw;
+  width: 100%;
+  font-size: 16px;
+  display: block;
+  color: dimgrey;
+  padding-left: 5vw;
+}
+
+.home .contentCell0 .tableCell1 {
+  text-align: left;
+  padding-left: 2vw;
+  width: 100%;
+  font-size: 16px;
+  display: block;
+  color: dimgrey;
+  padding-left: 5vw;
+}
+
+.home .contentCell1 .tableCell0 {
+  padding: 10px 0px 10px 0px;
+
+}
+
+.home .contentCell1 .tableCell1 {
+  padding: 10px 0px 10px 0px;
+}
+
+.home .contentCell1 .tableCell3 {
+  padding: 10px 0px 10px 0px;
+}
+
+.home .contentCell1 .button {
+  background-color: dimgrey;
+  color: white;
+  border-color: dimgrey;
+}
+
+.home .contentCell1 .button:hover {
+  background-color: white;
+  color: dimgrey;
+}
+
+
+/*
+  About
+*/
+
+.about .pageBanner {
+  background: url("./images/spiral.jpg") fixed top center no-repeat;
+  background-size: 100% auto;
+}
+
+.about .pageBannerInner {
+  padding: 10vw 0px 10vw 0px;
+}
+
+/*
+  Projects
+*/
+
+.projects .pageBanner {
+  background: url("./images/longDuct.jpg") fixed top center no-repeat;
+  background-size: 100% auto;
+}
+
+.projects .pageBannerInner {
+  padding: 10vw 0px 10vw 0px;
+}
+
+/*
+  Contact
+*/
+
+.contactInfo {
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: silver;
+}
+
+.info1 {
+  display: inline-block;
+  text-align: left;
+  margin-right: 40px;
+  margin-top: 20px;
+  color: dimgrey;
+}
+
+.info2 {
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 20px;
+  color: dimgrey;
+}
+
+.contact .contentCell0 {
+  padding: 20px;
+}
+
+.contact .contentCell1 {
+  padding: 20px;
+}
+
+/*
+  Footer
+*/
+
+.footer {
+  text-align: center;
+  background-color: dimgrey;
+  color: white;
+  margin-top: 4vw;
+}
+
+.footImg p {
+  font-size: 10px;
+  letter-spacing: 3px;
+  margin-top: 5px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.footer .tableHeader {
+  padding: 20px 0px 10px 0px;
+}
+
+.rights {
+  padding: 0px 0px 10px 0px;
+  color: silver;
+}
+
+@media only screen and (min-width: 550px) {
+  .home .contentCell0 .tableCell0 {
+    display: table-cell;
+    width: 50%;
+    padding-left: 10vw;
+  }
+
+  .home .contentCell0 .tableCell1 {
+    display: table-cell;
+    width: 50%;
+    padding-left: 10vw;
+  }
+
+  .home .contentCell1 .tableCell0 {
+    display: table-cell;
+  }
+
+  .home .contentCell1 .tableCell1 {
+    display: table-cell;
+  }
+
+  .home .contentCell1 .tableCell2 {
+    display: table-cell;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .home .contentCell0 .tableCell0 {
+    display: table-cell;
+    width: 50%;
+    padding-left: 10vw;
+  }
+
+  .home .contentCell0 .tableCell1 {
+    display: table-cell;
+    width: 50%;
+    padding-left: 15vw;
+  }
+}
+
+@media only screen and (max-width: 555px) {
+  .navHeader {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .logo {
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar {
+    padding-left: 15px;
+  }
+}
+
+@media only screen and (max-width: 910px) {
+  .headerText {
+    font-size: 35px;
+    top: 18px;
+  }
+
+  .logo {
+    top: 10px;
+  }
+}
+
+
+
+
+
+
+
+
